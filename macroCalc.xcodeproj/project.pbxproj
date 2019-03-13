@@ -15,6 +15,7 @@
 		7875477322315D0700CDABC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875477222315D0700CDABC9 /* main.m */; };
 		7875477D22315D0700CDABC9 /* macroCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875477C22315D0700CDABC9 /* macroCalcTests.m */; };
 		7875478822315D0700CDABC9 /* macroCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875478722315D0700CDABC9 /* macroCalcUITests.m */; };
+		7875479722315E5D00CDABC9 /* MacroCalcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875479622315E5D00CDABC9 /* MacroCalcModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7875478322315D0700CDABC9 /* macroCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macroCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7875478722315D0700CDABC9 /* macroCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macroCalcUITests.m; sourceTree = "<group>"; };
 		7875478922315D0700CDABC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7875479522315E5D00CDABC9 /* MacroCalcModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroCalcModel.h; sourceTree = "<group>"; };
+		7875479622315E5D00CDABC9 /* MacroCalcModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroCalcModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7875476E22315D0700CDABC9 /* LaunchScreen.storyboard */,
 				7875477122315D0700CDABC9 /* Info.plist */,
 				7875477222315D0700CDABC9 /* main.m */,
+				7875479522315E5D00CDABC9 /* MacroCalcModel.h */,
+				7875479622315E5D00CDABC9 /* MacroCalcModel.m */,
 			);
 			path = macroCalc;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7875476822315D0600CDABC9 /* ViewController.m in Sources */,
+				7875479722315E5D00CDABC9 /* MacroCalcModel.m in Sources */,
 				7875477322315D0700CDABC9 /* main.m in Sources */,
 				7875476522315D0600CDABC9 /* AppDelegate.m in Sources */,
 			);
