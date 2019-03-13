@@ -31,6 +31,7 @@
     return self.BasalMetabolism;
 }
 
+/** マクロ栄養素を計算して返す */
 - (NSArray *)calcMacro:(CGFloat)weight {
     NSMutableArray *array = [NSMutableArray array];
     
